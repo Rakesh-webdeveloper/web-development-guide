@@ -7,12 +7,13 @@
 4. Benefits of the VCS ?
 
 #### Installation
-1. How to install git ?
+1. How to install the git ?
 2. How to configuration the git ?
 
 ##### The Basic
 1. What is a Repository ?
 2. How to Create a git Repository ?  
+3. How to track the history of the git ?
 
 
 what is Merging ?  

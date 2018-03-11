@@ -15,6 +15,8 @@ git remote add origin <url>
 - Verify the new Remote  URL
 ```
 git remote -v
+origin  https://github.com/USERNAME/REPOSITORY.git (fetch)
+origin  https://github.com/USERNAME/REPOSITORY.git (push)
 ```
 - Change the remote URL
 ```
