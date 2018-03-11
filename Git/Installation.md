@@ -2,12 +2,12 @@
 ---
 
 #### Git configuration
-_Set up the git global configuration_
+_Set up the global git configuration_
 ```
 git config --global user.name "user name"
 git config --global user.email "email"
 ```
-_View the git global configuration_
+_View the global git configuration_
 ```
 git config --global --list
 ```
