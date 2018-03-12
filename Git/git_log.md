@@ -20,3 +20,17 @@ _To check the log for the perticular period_
 ```
 git log <since>..<until>
 ```
+
+_To check the log with stats_
+```
+git log --stat
+```
+
+_To check n_
+```
+git log --name-stat
+```
+
+```
+git log --pretty=short
+```
