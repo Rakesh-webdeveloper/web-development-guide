@@ -8,6 +8,10 @@ _To check the modified files in a working directory_
 ```
 git status -s
 ```
+_To show all Untracked files_
+```
+git status -u
+```
 _To check the modified files in a working directory of perticular branch_
 ```
 git Status -b

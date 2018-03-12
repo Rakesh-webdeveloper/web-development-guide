@@ -43,5 +43,12 @@ $ git checkout –b NewBranchName StartPoint
 ```
 Note that StartPoint refers to a revision number (or the first 6 characters of such) or an appropriate tag.
 
+#### Deleting the branches
+
+> Delete the feature branch:
+```
+git branch -d <branch_name>
+```
+
 #### Fetching the remote Branches
 >
