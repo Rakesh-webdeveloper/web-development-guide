@@ -1,6 +1,5 @@
-# Git Add (The Staging Area)
-***
-#### Adding file to Git
+
+## Git Add (The Stating Area)
 
 Git Add
 - ```git-add``` - Add file contents to the index.
@@ -14,28 +13,25 @@ Git Add
 - ```git add``` needs to be called every time you alter a file, whereas SVN add only needs to be called once for each file
 - By default, git status will automatically refresh the index, updating the cached stat information from the working tree and writing out the result.
 
-Example:
+**Syntax:**
 ```
-git add <file name>
+git add [options] [<File_1>] [<File_2>] . . . [<File_n>]
 ```
-Usage :  
-_Add the file to index_
+
+**Options:**
+> Add all changes in the working directory to the next commit, including new files and deletions:
 ```
-git add hello.py
+$ git add -A
 ```
-_Add all files to index_
+Add all changes to tracked files and all new files to the next commit, but do not add file deletions:
 ```
-git add .
+$ git add .
 ```
-_Add the whole directory to the index_
+Adds all changes to tracked files and all file removals to the next commit, but does not add new files:
 ```
-git add <directory name>
+$ git add -u
 ```
-_Adds content from all *.txt files under Documentation directory and its subdirectories_
+Walks through changed files and prompts user for add option. Does not include new files:
 ```
-git add Documentation/\*.txt
-```
-_Adding content from all git-*.sh scripts_
-```
-git add git-*.sh
+$ git add -p
 ```
