@@ -11,6 +11,49 @@ git help -g
 ```
 git blame
 
+## Table of Content
+
+##### Introduction  
+1. What is git ?
+2. What is version Control System ?
+3. What is centralised and distributed system ?
+4. Benefits of the VCS ?
+
+#### Installation
+1. How to install the git ?
+2. How to configuration the git ?
+
+##### The Basic
+1. What is a Repository ?
+2. How to Create a git Repository ?  
+3. How to track the history of the git ?
+
+
+what is Merging ?  
+How to resolve merging ?
+
+What is conflict ?  
+How to resolve conflict ?
+
+- Usage of git help
+- Local repository and remote repository
+- Push and Pull
+- Branching and Merging
+- Loging and showng
+- Undo/revert/reset
+- gitignore
+
+
+What is cherry-pick
+
+
+git log --stat
+
+git log -p
+
+git branch -v   
+
+
 
 
 # 3 ways of creating a repository
@@ -67,3 +110,18 @@ git blame
         - git fetch
         - git pull
         - git push
+
+
+git branch -d deletes a local branch. Use -D instead of -d to force delete a local branch without checking its merge status.
+
+Fixing the Commit Message Before git push
+
+I often notice a typo or a mistake in my commit message after I commit. Luckily, Git has a way to fix this problem.
+
+$ git commit --amend -m 'New commit message'
+To bring up the message editor, don’t provide the -m parameter:
+
+$ git commit --amend
+Keep in mind that it will not just modify the commit message but also commit any new changes that you might have. This will not work if you have pushed the commit to remote repository.
+
+git merge --abort
