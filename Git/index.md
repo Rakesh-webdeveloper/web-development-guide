@@ -1,41 +1,46 @@
-## Table of Content
-
-##### Introduction  
-1. What is git ?
-2. What is version Control System ?
-3. What is centralised and distributed system ?
-4. Benefits of the VCS ?
-
-#### Installation
-1. How to install the git ?
-2. How to configuration the git ?
-
-##### The Basic
-1. What is a Repository ?
-2. How to Create a git Repository ?  
-3. How to track the history of the git ?
-
-
-what is Merging ?  
-How to resolve merging ?
-
-What is conflict ?  
-How to resolve conflict ?
-
-- Usage of git help
-- Local repository and remote repository
-- Push and Pull
-- Branching and Merging
-- Loging and showng
-- Undo/revert/reset
-- gitignore
-
-
-What is cherry-pick
-
-
-git log --stat
-
-git log -p
-
-git branch -v   
+## Table Of Content
+- Introduction
+    - What is Version Control System VCS ?
+    - What is distributed and centralised VCS ?
+    - What is git ?
+    - Advantages of using git ?
+- Getting Started
+    - create a git repository
+        - git init
+        - git clone
+        - git config
+    - Save files to a repository
+        - git add
+        - git commit
+        - git stash
+        - .gitignore
+    - Inspecting a repository Reviewing Changes
+        - git status
+        - git log
+    - Undoing the commit and changes
+        - git checkout
+        - git clean
+        - git revert
+        - git reset
+    - Rewriting history
+- Advanced git
+    - Branches and merging
+        - git branch
+        - git checkout
+        - git merge
+    - Resolving conflict
+    - Creating Tags
+    - Configuring Text Editor
+    - Configuring a Diff and Merge tool
+- Misdss
+    - deleting a files
+    - Renaming a files
+    - Moving a files
+    - Copying a files
+- Working with Remote repository
+    - Synch with remote repository
+        - git clone
+        - git remote
+        - git fetch
+        - git pull
+        - git push
