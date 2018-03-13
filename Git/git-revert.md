@@ -28,12 +28,19 @@ git checkout -- .
 >_Undo using the git reset_
 _Commit history is reset to that specified commit_
 ```
-git reset --hard a1e8fb5
+git reset --hard <sha-1>
 ```
 _Undoing a committed snapshot_
 ```
 git checkout -- <sha-1>
 ```
-
+_Undoing a committed snapshot implicitly_
+```
+git revert <sha-1>
+```
+_Undoing a committed snapshot explicitly_
+```
+git revert -n <sha-1>
+```
 
 _undo a public commit with git revert_
