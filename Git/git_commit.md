@@ -7,5 +7,5 @@
 Syntax:
 
 ```
-git commit -m file_name
+git commit -m "<Message>" <file_name>
 ```
