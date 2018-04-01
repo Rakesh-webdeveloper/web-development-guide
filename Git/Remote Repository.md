@@ -11,7 +11,9 @@ git remote -v
 ```
 
 ##### Adding Remote Repositories
-
+```
+git remote add <repo_url>
+```
 
 ##### Delete the remote branches
 ```
@@ -25,7 +27,12 @@ remote repository up to date, and then merging the changes into your own
 code repository and possibly your working copy.
 `git pull` pulls down from a remote and instantly merges.
 `git pull` will download latest changes from the remote repository and automatically merge those changes in the local repository
-`git pull` will merge only into the current working branch
+`git pull` will merge only into the current working branch.
+
+_Pushing to the remote repo_
+```
+git push shared master
+```
 
 
 git fetch
