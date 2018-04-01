@@ -90,6 +90,15 @@ _Both arguments can be either a commit ID, a branch name, HEAD, or any other kin
 git log <since>..<until>
 git log 3157e..5ab91
 ```
+_show the commits that changed ﬁle, even across renames_
+```
+git log --follow [file]
+```
+_show the commits on branchA that are not on branchB_
+```
+git log branchB..branchA
+```
+
 ### Using Filter
 _Search for commits by a particular author. The <pattern> argument can be a plain string or a regular expression._
 ```

@@ -13,5 +13,10 @@ _To check the stage diff_
 _This command compares your staged changes to your last commit_
 ```
 git diff --staged
-git diff --cached 
+git diff --cached
+```
+
+_show the diﬀ of what is in branchA that is not in branchB_
+```
+git diff branchB...branchA
 ```
