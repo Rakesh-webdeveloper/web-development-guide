@@ -30,8 +30,13 @@ git stash pop
 ```
 _Reapply the changes to your working copy and keep them in your stash_  
 _This is useful if you want to apply the same stashed changes to multiple branches._
+_To apply the recent stash_
 ```
 git stash apply
+```
+_To apply the older stash_
+```
+git stash apply stash@{2}
 ```
 
 #### Stashing untracked or ignored files
@@ -93,7 +98,11 @@ You can hit ? for a full list of hunk commands. Commonly useful ones are:
 >There is no explicit "abort" command, but hitting CTRL-C(SIGINT) will abort the stash process.
 
 #### Creating a branch from your stash
-_To create a new branch to apply your stashed changes_
+_To create a branch from a stash_  
+```
+git stash branch <branch_name>
+```
+_To create a new branch to apply your stashed perticular changes_
 ```
 git stash branch <branch_name> stash@{<index>}
 git stash branch add-stylesheet stash@{1}
@@ -104,7 +113,23 @@ _To delete all of your stashes_
 ```
 git stash clear
 ```
-_To need a particular stash_
+_To delete a particular stash_
 ```
 git stash drop stash@{1}
 ```
+_To log the git stash_
+```
+ git log --oneline --graph stash@{0}
+```
+
+#### Un-applying a Stash
+_To unapply the older version of the stash_
+```
+git stash show -p stash@{0} | git apply -R
+```
+_To unapply the recent version of the stash_
+```
+git stash show -p | git apply -R
+```
+Others
+git stash apply --index

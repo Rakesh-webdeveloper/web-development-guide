@@ -22,7 +22,7 @@ _To get the shortest  form of the log list_
 ```
 git log --oneline
 ```
-_To check the log for the perticular period_
+_To check the log for the particular period_
 ```
 git log <since>..<until>
 ```
