@@ -8,6 +8,10 @@ _To check the modified files in a working directory_
 ```
 git status -s
 ```
+_To view all the changes made_
+```
+git status -v
+```
 _To show all Untracked files_
 ```
 git status -u
