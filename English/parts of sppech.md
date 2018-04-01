@@ -14,4 +14,3 @@ Parts of sentence
 1. subject - person or thing that does something.
 2. Verb - a word that expresses an action, occurrence or state of being.
 3. Object - a person or thing that receives the action of verb.
-4. 
