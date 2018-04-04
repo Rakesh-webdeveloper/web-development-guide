@@ -2,7 +2,7 @@
 <html>
   <head>
       <meta charset="utf-8" />
-      <title>git-add-2</title>
+      <title>tenses</title>
       <style>.markdown-preview:not([data-use-github-style]) { padding: 2em; font-size: 1.2em; color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); overflow: auto; }
 .markdown-preview:not([data-use-github-style]) > :first-child { margin-top: 0px; }
 .markdown-preview:not([data-use-github-style]) h1, .markdown-preview:not([data-use-github-style]) h2, .markdown-preview:not([data-use-github-style]) h3, .markdown-preview:not([data-use-github-style]) h4, .markdown-preview:not([data-use-github-style]) h5, .markdown-preview:not([data-use-github-style]) h6 { line-height: 1.2; margin-top: 1.5em; margin-bottom: 0.5em; color: rgb(255, 255, 255); }
@@ -573,27 +573,226 @@ pre.editor-colors .fold-marker:after {
 }
 </style>
   </head>
-  <body class='markdown-preview' data-use-github-style><h2 id="git-add-the-stating-area-">Git Add (The Stating Area)</h2>
-<p>Git Add</p>
-<ul>
-<li><code>git-add</code> - Add file contents to the index.</li>
-<li>This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit.</li>
-<li>The "index" holds a snapshot of the content of the working tree, and it is this snapshot that is taken as the contents of the next commit.</li>
-<li>The <code>git add</code> command adds a change in the working directory to the staging area</li>
-<li>Changes are not actually recorded until you run git commit.</li>
-</ul>
-<p><strong>Note:</strong>  </p>
-<ul>
-<li>The <code>git add</code> command will not add ignored files by default.</li>
-<li><code>git add</code> needs to be called every time you alter a file, whereas SVN add only needs to be called once for each file</li>
-<li>By default, git status will automatically refresh the index, updating the cached stat information from the working tree and writing out the result.</li>
-</ul>
-<p><strong>Syntax:</strong></p>
-<pre class="editor-colors lang-"><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>git&nbsp;add&nbsp;[options]&nbsp;[&lt;File_1&gt;]&nbsp;[&lt;File_2&gt;]&nbsp;.&nbsp;.&nbsp;.&nbsp;[&lt;File_n&gt;]</span></span></div></pre><p><strong>Options:</strong></p>
-<blockquote>
-<p>Add all changes in the working directory to the next commit, including new files and deletions:</p>
-<pre class="editor-colors lang-"><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>$&nbsp;git&nbsp;add&nbsp;-A</span></span></div></pre><p>Add all changes to tracked files and all new files to the next commit, but do not add file deletions:</p>
-<pre class="editor-colors lang-"><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>$&nbsp;git&nbsp;add&nbsp;.</span></span></div></pre><p>Adds all changes to tracked files and all file removals to the next commit, but does not add new files:</p>
-<pre class="editor-colors lang-"><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>$&nbsp;git&nbsp;add&nbsp;-u</span></span></div></pre><p>Walks through changed files and prompts user for add option. Does not include new files:</p>
-<pre class="editor-colors lang-"><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>$&nbsp;git&nbsp;add&nbsp;-p</span></span></div></pre></blockquote></body>
+  <body class='markdown-preview' data-use-github-style><p>Tenses Defines Verb (Tenses == verb)</p>
+<p>Forms of verb
+1.
+2.
+3.
+4.
+5.</p>
+<h3 id="all-tenses">All Tenses</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th>Simple</th>
+<th>Continuous</th>
+<th>Perfect</th>
+<th>perfect Continuous</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Present</td>
+<td>present simple</td>
+<td>present Continuous</td>
+<td>Present perfect</td>
+<td>Present perfect Continuous</td>
+</tr>
+<tr>
+<td style="text-align:left">Past</td>
+<td>Past simple</td>
+<td>Past Continuous</td>
+<td>Past perfect</td>
+<td>Past perfect Continuous</td>
+</tr>
+<tr>
+<td style="text-align:left">Future</td>
+<td>Future simple</td>
+<td>Future Continuous</td>
+<td>Future perfect</td>
+<td>Future perfect Continuous</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Present Simple</strong><br>Form : Subject /verb (present / v1, v2)
+eg :</p>
+<ol>
+<li>I <code>drink</code> coffee every morning</li>
+<li>Cathy <code>works</code> as a teacher</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">I / You / We / They</th>
+<th>He / She / It</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">work</td>
+<td>works</td>
+</tr>
+<tr>
+<td style="text-align:left">live</td>
+<td>lives</td>
+</tr>
+<tr>
+<td style="text-align:left">play</td>
+<td>plays</td>
+</tr>
+<tr>
+<td style="text-align:left">go</td>
+<td>goes</td>
+</tr>
+<tr>
+<td style="text-align:left">eat</td>
+<td>eats</td>
+</tr>
+<tr>
+<td style="text-align:left">drink</td>
+<td>drinks</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Present Continuous</strong><br>Form : Subject + am/is/are +verb (-ing)    </p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">I</th>
+<th>am</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">He/ She / It</td>
+<td>is</td>
+</tr>
+<tr>
+<td style="text-align:left">You/ We / They</td>
+<td>are</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>I <code>an drinking</code> coffee right now.</li>
+<li>We <code>are having</code> breakfast.</li>
+<li>It <code>is raining</code> outside.</li>
+</ol>
+<p><strong>Past Simple</strong>
+Form : subject + verb (past /v2)
+<em>Completed actions in the past</em>
+eg:</p>
+<ol>
+<li>I <code>played</code> soccer with my friends last Saturday.</li>
+<li>Karen <code>gave</code> us a present for out wedding anniversary.</li>
+</ol>
+<p><strong>Past Continuous</strong>
+Form : subject + was / were + verb (-ing)
+<em>Unfinished, ongoing action in the past(+ finished action)</em>
+eg:</p>
+<ol>
+<li>I <code>was having</code> dinner with my family when the doorbell <code>rang</code>.</li>
+<li>It <code>was raining</code> when priya <code>left</code> for work.</li>
+<li>The power <code>went out</code> while the children <code>were studying</code>.</li>
+<li>While we <code>were waiting</code> at the bus stop, we <code>saw</code> a car accident.</li>
+</ol>
+<p>| I / He / She / It| was|
+| You / We / They | Were|</p>
+<p><strong>Present Perfect</strong><br>Form : Subject + have / has + verb (past participate / v3)
+| I / you / We/ They| Have |
+| He / She / It | Has|</p>
+<p>eg:</p>
+<ol>
+<li>I <code>have taught</code> English to many student. (in my career) PP
+I taught many students when I was a teacher p</li>
+<li>Ashley <code>has visited</code> France four times. (in her life) PP
+Ashley visited France in 2015. p</li>
+<li>We <code>have seen</code> two movies this week. PP
+We saw two movies last week. p</li>
+<li>I have finished my homework
+I have finished my homework at 6:30 p.m.</li>
+<li>Arthur has lost his glasses.
+Arthur lost his glasses at the party.</li>
+</ol>
+<p><strong>Present Perfect Continuous</strong>
+<em>Action that started in the past and are still continuing</em>
+From : subject + have/ has been + verb (-ing)</p>
+<p>eg:</p>
+<ol>
+<li>I have been waiting to see the doctor for two hours / since 5 pm.</li>
+<li>He has been playing tennis since he was a child / for 20 years.</li>
+<li>She has been learning English for eight months / since last October.</li>
+<li>We have been living in this town for a very long time / since 1980.</li>
+<li>It has been raining all morning / since 4 am.</li>
+</ol>
+<p><strong>Past Perfect</strong>
+From : subject + had + verb (past participate / v3)
+<em>The first past action (When there are two or more past actions)</em></p>
+<p>eg:</p>
+<ol>
+<li>When we <code>got to</code> the theater, the movie <code>had started</code>.</li>
+<li>I <code>was</code> sick because I <code>had eaten</code> too much the previous night.</li>
+<li>the girl <code>looked</code> very familiar. I <code>had seen</code> her somewhere before.</li>
+<li>Joel <code>rushed</code> to his boss's office, but she <code>had gone</code> home already.</li>
+</ol>
+<p><strong>Past Perfect Continuous</strong>
+Form : subject + had been + verb (-ing)
+<em>The first (Continuous) past action</em></p>
+<p>eg:</p>
+<ol>
+<li>I <code>felt</code> really tired because I <code>had been driving</code> all day.</li>
+<li>She <code>had been waiting</code> for two hours when the doctor finally <code>arrived</code>.</li>
+<li>The ground <code>was</code> wet because It <code>had been raining</code>.</li>
+<li>When he <code>quit</code> his job at the factory, he <code>had been working</code> there for 12 years.</li>
+</ol>
+<p><strong>Future Simple</strong>
+Three Forms :
+a&gt; Going to
+b&gt; Present Continuous
+c&gt; Will</p>
+<p>a&gt; Going to -&gt; plans and intentions
+Form : subject + am / is / are going to + verb (base)</p>
+<ol>
+<li>we <code>are going</code> to buy a car.</li>
+<li>I <code>am going to start</code> exercising regularly.</li>
+<li>Rahul is <code>going to take</code> a vacation from work.</li>
+</ol>
+<p>b&gt; Present Continuous -&gt; fixed arrangements
+Form : subject + am / is / are + verb (-ing)</p>
+<ol>
+<li>I <code>am having</code> lunch with my parents on Saturday</li>
+<li>We <code>are flying</code> to Mumbai the day after tomorrow</li>
+<li>Josh <code>is giving</code> a presentation to the board of directors on the 10th.</li>
+</ol>
+<p>Going to vs Present Continuous</p>
+<ol>
+<li>I am going to see the dentist sometimes next week (plan).
+I am seeing the dentist tomorrow afternoon (arrangements).</li>
+<li><p>We are going to get married this year (plan).
+we are getting married on April 21st (arrangements).</p>
+<p>c&gt; will -&gt; instant decisions, offers, promises
+From : subject + will + verb (base).</p>
+<p>Making Predictions : will &amp; going to.
+will -&gt; Predictions based on knowledge / personal experience.
+Going to -&gt; Predictions based on something in the present.</p>
+<p><strong>Future Continuous</strong>
+Form : subject + will be + verb (-ing)
+<em>Ongoing actions in the future</em>
+eg :</p>
+</li>
+<li>At 11 am tomorrow, I <code>will be driving</code> to Portland.</li>
+</ol>
+<p><strong>Future perfect / Future perfect Continuous</strong>
+Future perfect : completed action in the future
+Form : subject + will have + verb (past participle / v3)
+eg :</p>
+<ol>
+<li>By August, Aaron <code>will have saved</code> $600.</li>
+<li>By 5 p.m., we <code>will have painted</code> the living room.
+Future Perfect Continuous : ongoing action in the future (with duration)
+Form : subject + will have been + verb (-ing)</li>
+<li>By August, Aaron <code>will have been saving</code> money for six months.
+2.By 5 p.m., we <code>will have been painting</code> the living room for ten hours.</li>
+</ol></body>
 </html>

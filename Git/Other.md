@@ -125,3 +125,7 @@ $ git commit --amend
 Keep in mind that it will not just modify the commit message but also commit any new changes that you might have. This will not work if you have pushed the commit to remote repository.
 
 git merge --abort
+
+git stash - To save changes made when they're not in a state to commit  them to  a repository.
+
+git rebase - Takes a set of commits, copies them and store them outside the repository.

@@ -9,7 +9,7 @@
         - git init
         - git clone
         - git config
-    - Save files to a repository
+    - Save files to a repository/ Tracking changes into the repository
         - git add
         - git commit
         - git stash
