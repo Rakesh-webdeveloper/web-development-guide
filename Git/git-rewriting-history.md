@@ -23,6 +23,19 @@ git commit --amend --no-edit
 #### Changing older or multiple commits
 
 
+#### git reflog
+- Reflogs track when Git refs were updated in the local repository.
+- By default, git reflog will output the reflog of the HEAD ref
+- "ref", which is a pointer to a commit.
+- Reflogs are stored in directories under the local repository's .git directory.
+- git reflog directories can be found at .git/logs/refs/heads/., .git/logs/HEAD
+- .git/logs/refs/stash if the git stash has been used on the repo.
+- A special reflog is maintained for the Git stash
+
+```
+git reflog
+git reflog show HEAD # equivalent to above command
+```
 
 git rebase
 git rebase -i
