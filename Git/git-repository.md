@@ -31,15 +31,55 @@ git init <directory> --template=<template_directory>
 ```
 
 #### Cloning a existing repository
+- Clones a repository into a newly created directory
+- Creates remote-tracking branches for each branch in the cloned repository
 
+
+``` git clone``` - Clone a repository into a new directory.
 - Cloning a local or remote repository
 - Cloning a bare repository
 - Using shallow options to partially clone repositories
+- Git URLs
 
 _Cloning an existing git repository_
+_The git clone command copies an existing Git repository_
 ```
 git clone <url>
 ```
+_Cloning to a specific folder_
+_Clone the repository located at <repo> into the folder called ~<directory>! on the local machine._
+```
+git clone <repo> <directory>
+```
+_Cloning a specific tag_
+_Clone the repository located at <repo> and only clone the ref for <tag>_
+```
+git clone -branch <tag> <repo>
+```
+_Shallow clone_
+```
+git clone -depth=1 <repo>
+```
+>Clone the repository located at <repo> and only clone the
+ history of commits specified by the option depth=1. In this example a clone of <repo> is made and only the most recent commit is included in the new cloned Repo. Shallow cloning is most useful when working with repos that have an extensive commit history. An extensive commit history may cause scaling problems such as disk space usage limits and long wait times when cloning. A Shallow clone can help alleviate these scaling issues.
+
+_Cloning a brnach_
+```
+git clone -branch <branch_name> <repo_url>
+```
+_Cloning a template_
+```
+git clone --template
+git clone --template=<template_directory> <repo location>
+```
+
+#### Git URL's
+-SSH
+
+- GIT
+
+- HTTP
+
 
 #### Adding exists working directory to the git
 
@@ -69,3 +109,5 @@ You can call git init --separate-git-dir on an existing repository and the .git 
 ```
 --SHARED[=(FALSE|TRUE|UMASK|GROUP|ALL|WORLD|EVERYBODY|0XXX)]
 ```
+
+// check git clone -mirror vs. git clone -bare
