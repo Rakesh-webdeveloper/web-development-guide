@@ -1,0 +1,3 @@
+- Extract method
+- Replace Parameter with Method Call
+-
